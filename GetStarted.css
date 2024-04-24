@@ -1,0 +1,121 @@
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.get-started-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.navigation a {
+    color: #006d77;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navigation .sign-up-btn {
+    background-color: #e29578;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.get-started-section {
+    background-color: #edf6f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.get-started-section h1 {
+    color: #006d77;
+    margin-bottom: 20px;
+}
+
+.social-login .social-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-button.google {
+    background-color: #fff;
+    color: #000;
+    /* Google's branding colors */
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    /* Facebook's branding colors */
+}
+
+.or-continue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.or-continue hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #c4c4c4;
+    margin: 0 10px;
+}
+
+#signup-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #83c5be;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #006d77;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    
