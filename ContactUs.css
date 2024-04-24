@@ -1,0 +1,267 @@
+/* Updated CSS */
+
+/* Define color variables */
+:root {
+    --teal-dark: #006d77;
+    --teal-light: #83c5be;
+    --offwhite: #edf6f9;
+    --peach: #ffddd2;
+    --coral: #e29578;
+    --light-green: #a7d5d0; /* Light green for the content box */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--offwhite);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--teal-dark);
+    color: var(--offwhite);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--offwhite);
+    margin-left: 1em;
+}
+
+.signup-btn {
+    background-color: var(--coral);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+/* Updated class name and style for the banner */
+.about-us-banner {
+    position: relative;
+    text-align: center;
+    color: var(--teal-dark);
+    margin-bottom: -35px; /* Adjust space under the image */
+}
+
+/* Removed scaling and ensured image is fully visible */
+.about-us-banner img {
+    width: 100%; /* Make the image fully stretch out to the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+/* Add the following to the bottom of your styles.css file */
+.about-header {
+    background-color: var(--teal-light); /* Lighter green for the header background */
+    text-align: center;
+    font-weighted: bold;
+    color: var(--teal-dark); /* Darker green for the text */
+    font-size: 24px; /* Larger text size for the header */
+    padding: 20px 0;
+    margin: 0;
+}
+.contact-section {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-intro {
+    margin-bottom: 30px;
+    font-size: 19px; 
+}
+
+.contact-form {
+    background-color: transparent;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #006d77; /* Dark green from the color palette */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #83c5be; /* Lighter green for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-section {
+        max-width: 100%;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+}
+/* Your existing CSS rules ... */
+
+/* Styles for form inputs and textareas for consistency */
+.contact-form input,
+.contact-form textarea {
+    font-family: 'Arial', sans-serif; /* Replace with the font-family used on your website */
+    font-size: 16px; /* Replace with the font-size used on your website */
+    /* Add any additional properties you want to be consistent across form inputs and textareas */
+    /* ... */
+}
+
+/* Continue with other CSS rules if needed */
+.new-haven-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.logos-banner {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.contact-cdc-intro {
+    max-width: 60%;
+    margin: 20px auto; /* This centers the text block and adds space above and below */
+    font-size: 1.3em;
+}
+
+.cdc-contact-btn {
+    display: inline-block; /* Allows width and height to be set */
+    padding: 10px 20px;
+    background-color: #006d77; /* Dark green from the color palette */
+    color: white;
+    text-decoration: none; /* Removes the underline from the link */
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adds space below the button */
+}
+
+.cdc-contact-btn:hover {
+    background-color: #83c5be; /* Lighter green for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-cdc-intro {
+        max-width: 100%;
+    }
+}
+.newsletter-section {
+    background-color: #edf6f9; /* Light grey background */
+    text-align: center;
+    padding: 50px 0; /* Increased vertical padding */
+}
+
+.newsletter-section h2 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 30px; /* Increased space below */
+}
+
+.subscription-info {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 15px; /* Increased space below */
+    padding: 0 10%; /* Add padding for text not to stretch too long on wide screens */
+}
+
+.email-input {
+    width: 35%; /* Increased width */
+    margin: 20px auto; /* Increased bottom margin */
+    padding: 12px; /* Increased padding */
+    background-color: #006d77; /* Dark green background */
+    color: white;
+    boarder: none;
+}
+
+.consent-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%; /* Match the width of the email input */
+    margin: 0 auto 20px;
+}
+
+.consent-checkbox {
+    margin-right: 10px;
+}
+
+.consent-label {
+    font-size: 18px; /* Increased font size */
+}
+
+.subscribe-btn {
+    background-color: #006d77; /* Dark green background */
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding */
+    margin-bottom: 30px; /* Increased bottom margin */
+}
+
+.subscribe-btn:hover {
+    background-color: #83c5be; /* Light green for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .newsletter-section {
+        padding: 30px 15px; /* Reduced padding */
+    }
+
+    .newsletter-section h2,
+    .subscription-info,
+    .email-input,
+    .consent-section {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .subscription-info {
+        padding: 0; /* Remove padding on small screens */
+    }
+
+    .consent-section {
+        flex-direction: column; /* Stack checkbox and label on top of each other */
+    }
+
+    .consent-checkbox {
+        margin-bottom: 10px; /* Add space between checkbox and label */
+    }
+}
+
+/* For the copyright text */
+.newsletter-section .copyright {
+    font-weight: bold;
+    color: #006d77; /* Dark green color for text */
+    font-size: 18px; /* Increased font size */
+    margin-top: 40px; /* Increased space from the button */
+}
+

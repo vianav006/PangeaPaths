@@ -1,0 +1,445 @@
+
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation a {
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, label {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-background {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Adjust the height as per your design */
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.login-form-container {
+    background-color: #edf6f9;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+}
+
+.social-login .social-button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-button.google {
+    background-color: #fff;
+    color: #000;
+    /* Add more styles for Google button */
+}
+
+.social-button.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    /* Add more styles for Facebook button */
+}
+
+.or-continue {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.or-continue hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #c4c4c4;
+    margin: 0 10px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #83c5be;
+}
+
+.login-remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #006d77;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter-signup {
+    padding-top: 20px;
+}
+
+.newsletter-signup p {
+    margin-bottom: 10px;
+}
+
+.login-footer {
+    /* Add styles for your footer */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+:root {
+    --main-color: #006d77;
+    --accent-color: #83c5be;
+    --light-bg: #edf6f9;
+    --light-accent: #ffddd2;
+    --dark-accent: #e29578;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--light-bg);
+}
+
+.logo {
+    height: 200px; /* Adjust size as needed */
+}
+
+.navbar .nav-button {
+    margin-left: 10px;
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar .sign-up {
+    background-color: var(--dark-accent);
+    color: white;
+    border-radius: 5px;
+}
+
+.main {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--light-bg);
+}
+
+.welcome-section, .career-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.welcome-image, .career-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.welcome-content, .career-content {
+    max-width: 50%;
+    text-align: center;
+}
+
+.join-button, .explore-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--light-bg )
+        /* ... other styles ... */
+/* ... your existing CSS above ... */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf6f9;
+}
+
+/* Company logos section */
+.companies-section img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/* Why Pangea Paths section */
+.why-pangea-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.why-pangea-section .bubbles-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.bubble {
+    background-color: #83c5be;
+    border-radius
+.bubble {
+    background-color: #83c5be;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.bubble:hover {
+    transform: scale(1.05);
+}
+
+.why-pangea-section .why-pangea-image {
+    width: 100%;
+    max-width: 60px; /* Adjust as needed for the 'Why Pangea Paths' image to fit the screen */
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Additional Features Section */
+.additional-features-section img {
+    width: 32%;
+    margin: 1%;
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+    .additional-features-section img {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .additional-features-section img {
+        width: 98%;
+    }
+
+    .bubble {
+        width: 45%; /* Smaller width for mobile */
+        height: 80px; /* Slightly smaller height for mobile */
+        margin: 10px auto; /* Center bubbles on mobile */
+    }
+}
+
+/* Rest of your CSS for styling other elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edf6f9;
+}
+
+.service-header {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-header-img {
+    max-width: 500%;
+    height: auto;
+}
+
+.service-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.service-container {
+    display: contain;
+  
+    align: center;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex-basis: calc(50% - 40px);
+}
+
+.service-link {
+    display: inline-block;
+    background-color: #006d77;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.service-link:hover {
+    background-color: #83c5be;
+}
+
+.discover-more-btn {
+    background-color: #e29578;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.discover-more-btn:hover {
+    background-color: #ffddd2;
+}
+
+.additional-resources {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.additional-resources img {
+    width: 50px; /* Adjust size as needed */
+}
+
+.additional-resources-header {
+    flex-grow: 4;
+    color: #006d77;
+}
+
+@media screen and (max-width: 768
+/* ... existing styles ... */
+
+.additional-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    background-color: #edf6f9;
+    gap: 20px;
+}
+
+.services-text p {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.schedule-services form {
+    background-color: #83c5be;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.schedule-services h2 {
+    color: #fff;
+}
+
+.schedule-services input,
+.schedule-services textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.schedule-services button {
+    background-color: #006d77;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.mentor-info h3 {
+    color: #006d77;
+    margin: 20px 0 10px 0;
+}
+
+.mentor-info p {
+    color: #333;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .additional-services {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ... any other styles ... */
+

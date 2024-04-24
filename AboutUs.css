@@ -1,0 +1,224 @@
+/* Updated CSS */
+
+/* Define color variables */
+:root {
+    --teal-dark: #006d77;
+    --teal-light: #83c5be;
+    --offwhite: #edf6f9;
+    --peach: #ffddd2;
+    --coral: #e29578;
+    --light-green: #a7d5d0; /* Light green for the content box */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--offwhite);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--teal-dark);
+    color: var(--offwhite);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--offwhite);
+    margin-left: 1em;
+}
+
+.signup-btn {
+    background-color: var(--coral);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+/* Updated class name and style for the banner */
+.about-us-banner {
+    position: relative;
+    text-align: center;
+    color: var(--teal-dark);
+    margin-bottom: -35px; /* Adjust space under the image */
+}
+
+/* Removed scaling and ensured image is fully visible */
+.about-us-banner img {
+    width: 100%; /* Make the image fully stretch out to the container's width */
+    height: auto; /* Maintain aspect ratio */
+}
+/* Add the following to the bottom of your styles.css file */
+.about-header {
+    background-color: var(--teal-light); /* Lighter green for the header background */
+    text-align: center;
+    font-weighted: bold;
+    color: var(--teal-dark); /* Darker green for the text */
+    font-size: 24px; /* Larger text size for the header */
+    padding: 20px 0;
+    margin: 0;
+}
+
+.about-content {
+    background-image: url('https://imageshack.com/i/poA6H6vIj'); /* Replace with your uploaded transparent image URL */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 25%;
+    font-style: italic;
+    font-size: 20px;
+    font-weighted: bold;
+    color: var(#a7d5d0); /* Coral color for the text */
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        padding: 50px 5%;
+    }
+}
+
+.who-we-are h2 {
+    font-size: 30px; /* Larger font size for the header */
+    text-transform: uppercase;
+    color: #006d77; /* Darker green color */
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+    border-left: 2px solid #a7d5d0; /* Border color */
+    border-right: 2px solid #a7d5d0; /* Border color */
+}
+
+.section {
+    padding: 0 15px;
+    border-left: 2px solid #a7d5d0; /* Border color */
+    flex: 1;
+    text-align: left;
+}
+
+.section h3 {
+    font-size: 22px; /* Slightly smaller than the main header */
+    text-transform: uppercase;
+    color: #e29578; /* Coral color */
+}
+
+.section p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #006d77; /* Light green color */
+}
+
+@media (max-width: 768px) {
+    .sections {
+        flex-direction: column;
+    }
+
+    .section {
+        border-left: none;
+        padding: 15px 0;
+        margin-bottom: 20px;
+    }
+
+    .section:last-child {
+        margin-bottom: 0;
+    }
+}
+.newsletter-section {
+    background-color: #edf6f9; /* Light grey background */
+    text-align: center;
+    padding: 50px 0; /* Increased vertical padding */
+}
+
+.newsletter-section h2 {
+    font-size: 28px; /* Increased font size */
+    margin-bottom: 30px; /* Increased space below */
+}
+
+.subscription-info {
+    font-size: 18px; /* Increased font size */
+    margin-bottom: 15px; /* Increased space below */
+    padding: 0 10%; /* Add padding for text not to stretch too long on wide screens */
+}
+
+.email-input {
+    width: 35%; /* Increased width */
+    margin: 20px auto; /* Increased bottom margin */
+    padding: 12px; /* Increased padding */
+    background-color: #006d77; /* Dark green background */
+    color: white;
+    boarder: none;
+}
+
+.consent-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%; /* Match the width of the email input */
+    margin: 0 auto 20px;
+}
+
+.consent-checkbox {
+    margin-right: 10px;
+}
+
+.consent-label {
+    font-size: 18px; /* Increased font size */
+}
+
+.subscribe-btn {
+    background-color: #006d77; /* Dark green background */
+    color: white;
+    border: none;
+    padding: 12px 25px; /* Increased padding */
+    margin-bottom: 30px; /* Increased bottom margin */
+}
+
+.subscribe-btn:hover {
+    background-color: #83c5be; /* Light green for hover effect */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .newsletter-section {
+        padding: 30px 15px; /* Reduced padding */
+    }
+
+    .newsletter-section h2,
+    .subscription-info,
+    .email-input,
+    .consent-section {
+        width: 100%; /* Full width on small screens */
+    }
+
+    .subscription-info {
+        padding: 0; /* Remove padding on small screens */
+    }
+
+    .consent-section {
+        flex-direction: column; /* Stack checkbox and label on top of each other */
+    }
+
+    .consent-checkbox {
+        margin-bottom: 10px; /* Add space between checkbox and label */
+    }
+}
+
+/* For the copyright text */
+.newsletter-section .copyright {
+    font-weight: bold;
+    color: #006d77; /* Dark green color for text */
+    font-size: 18px; /* Increased font size */
+    margin-top: 40px; /* Increased space from the button */
+}
+

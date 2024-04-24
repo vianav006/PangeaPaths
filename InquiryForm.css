@@ -1,0 +1,79 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    background-color: #edf6f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #006d77;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    color: #006d77;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #83c5be;
+}
+
+.form-navigation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-navigation button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e29578;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-navigation button#previous {
+    background-color: #ffddd2;
+}
+
