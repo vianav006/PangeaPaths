@@ -1,0 +1,136 @@
+.logo {
+    width: 100px;
+  align: center;
+  nav a {
+    text-decoration: none;
+    color: var(--offwhite);
+    margin-left: 1em;
+}
+}body {
+    font-family: 'Arial', sans-serif;
+    background-color: #edf6f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h1, 
+.login-container h2 {
+    color: #006d77; /* Pangea Paths primary color */
+}
+
+.login-container p {
+    margin-bottom: 20px;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form label {
+    text-align: left;
+}
+
+#login-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.terms input {
+    margin-right: 10px;
+}
+
+.next-btn {
+    background-color: #006d77; /* Pangea Paths primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.next-btn:hover {
+    background-color: #83c5be; /* Pangea Paths secondary color */
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.divider hr {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.divider span {
+    margin: 0 10px;
+}
+
+.social-login button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 100%; /* Full-width buttons */
+}
+
+.linkedin-btn {
+    background-color: #83c5be; /* LinkedIn color */
+    color: white;
+}
+
+.google-btn {
+    background-color: #83c5be; /* Google color */
+    color: white;
+}
+
+/* Insert your LinkedIn and Google logos as background images inside the buttons */
+.social-login button {
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px; /* Adjust padding to accommodate logo size */
+}
+
+.linkedin-btn {
+    background-image: url('your-linkedin-logo-url'); /* Replace with your LinkedIn logo URL */
+}
+
+.google-btn {
+    background-image: url('your-google-logo-url'); /* Replace with your Google logo URL */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+    }
+}
+
+

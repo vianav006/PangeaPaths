@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+  <header class="site-header">
+        <img src="https://i.ibb.co/z5C6m5B/logo.jpg" alt="Pangea Paths Logo" class="logo">
+        <nav class="navbar">
+            <a href="index.html" class="nav-button">Home</a>
+            <a href="Services.html" class="nav-button">Services</a>
+            <a href="Testimonial.html" class="nav-button">Testimonials</a>
+            <a href="AboutUs.html" class="nav-button">About Us</a>
+            <a href="ContactUs.html" class="nav-button">Contact</a>
+            <a href="LoginPage.html" class="nav-button">Log In</a>
+            <a href="InquiryForm.html" class="nav-button sign-up">Sign Up</a>
+        </nav>
+    </header>
+    
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,7 +25,7 @@
             <img src="https://i.ibb.co/z5C6m5B/logo.jpg" alt="Pangea Paths Logo">
         </header>
         <form id="inquiry-form">
-            <h1>Inquiry Form</h1>
+            <h1>Sign Up Page</h1>
             
             <!-- Add your form fields here -->
             
@@ -32,5 +45,55 @@
             </div>
         </form>
     </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Inquiry Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form id="student-inquiry-form" action="submit-inquiry.php" method="post">
+            <!-- Student Email -->
+            <label for="Student-email">Student Email</label>
+            <input type="email" id="Student-email" name="Student-email" placeholder="ex. johnsmith@duke.edu.lb" required>
+
+            <!-- Name Section -->
+            <div class="full-name">
+                <div class="name-field">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="ex. John" required>
+                </div>
+                <div class="name-field">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="ex. Smith" required>
+                </div>
+            </div>
+
+            <!-- Institution -->
+            <label for="institution">Institution</label>
+            <input type="text" id="institution" name="institution" placeholder="Enter university name" required>
+
+            <!-- Graduation Date -->
+            <label for="graduation-date">Graduation Date</label>
+            <input type="text" id="graduation-date" name="graduation-date" placeholder="MM/DD/YYYY" required>
+
+            <!-- International Student -->
+            <label for="international-student">International Student</label>
+            <select id="international-student" name="international-student">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
